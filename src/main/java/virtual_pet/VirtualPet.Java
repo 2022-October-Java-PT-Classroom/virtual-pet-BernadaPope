@@ -29,38 +29,18 @@ public class VirtualPet {
     }
 
     public void feed() {
-        this.hunger += 10;
-        System.out.println("Yum! Chloe is happy and full!")
+        this.hunger += 5;
+        System.out.println("Yum! Chloe is happy and full!");
         }
 
     public void water() {
-        thirst += 8;
-        if (thirst > 20) {
-            thirst = 20;
+       this.water +=5;
+       System.out.println("Chloe is feeling hydrated!");
         }
 
     public void clean (){
-        clean +=;
-        if(clean < 2) {
-            clean = 2;
+        this.waste +=5;
+        System.out.println("Whew that was close! Chloe almost had an accident inside of the house!")
         }
-    }
+    
 
-        public String getName() {
-            return name;
-        }
-
-        public int getHunger() {
-            return hunger;
-        }
-
-        public int getThirst() {
-            return thirst;
-        }
-
-        public int getWaste(){
-            return waste;
-        }
-    }
-    }
-}
