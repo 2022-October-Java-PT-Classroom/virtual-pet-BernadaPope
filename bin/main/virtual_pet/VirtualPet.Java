@@ -14,9 +14,9 @@ public class VirtualPet {
     }
 
     public void tick() {
-        this.hunger -= 5;
-        this.thirst -= 5;
-        this.waste  += 5;
+        this.hunger --;
+        this.thirst --;
+        this.waste  ++;
     }
 
     if (this.hunger <=0) {
