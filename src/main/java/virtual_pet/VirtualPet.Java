@@ -14,15 +14,23 @@ public class VirtualPet {
     }
 
     public void tick() {
-        hunger += 5;
-        thirst -= 5;
-        waste  += 5;
+        this.hunger -= 5;
+        this.thirst -= 5;
+        this.waste  += 5;
+    }
+
+    if (this.hunger <=0) {
+    System.out.println("Chloe is hungry!");
+    }else if (this.thirst <=) {
+        System.out.println("Chloe is thirsty!");
+    }else if (this.waste <=0) {
+        System.out.println("Chloe needs to go for a walk!");
+        }
     }
 
     public void feed() {
-        hunger -=2;
-        if(hunger <0) {
-            hunger = 0;
+        this.hunger += 10;
+        System.out.println("Yum! Chloe is happy and full!")
         }
 
     public void water() {
